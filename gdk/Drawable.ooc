@@ -1,0 +1,4 @@
+Drawable: cover from GdkDrawable* {
+	
+	
+}
