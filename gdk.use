@@ -2,3 +2,4 @@ Name: GDK 2.0
 Description: GNU Drawing Toolkit
 Pkgs: gdk-2.0
 Includes: gdk/gdk.h
+SourcePath: .
