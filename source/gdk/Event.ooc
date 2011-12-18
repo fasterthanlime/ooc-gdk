@@ -40,3 +40,21 @@ EventMotion: cover from GdkEventMotion {
   x_root: extern Double
   y_root: extern Double
 }
+
+EventButton: cover from GdkEventButton {
+  type: extern EventType
+  window: extern Window*
+  send_event: extern Bool
+  time: extern UInt32
+
+  x: extern Double
+  y: extern Double
+  axes: extern Double*
+  state: extern UInt
+
+  button: extern UInt
+  device: externPointer
+
+  x_root: extern Double
+  y_root: extern Double
+}
